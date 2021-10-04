@@ -69,14 +69,47 @@
             }
             #rf-prima {
                 background-image: url(../img/4.webp);
+                background-position: 50% 90%;
             }
             #rf-seconda {
                 background-image: url(../img/5.webp);
+                background-position: 50% 30%;
             }
             #rf-terza {
                 background-image: url(../img/6.webp);
+                background-position: 50% 100%;
             }
-        
+            
+            /* Inizio over -------------------------------- */
+            #rb-prima:hover {
+                background: url(../img/1b.webp);
+                background-size: cover;
+            }
+            #rb-seconda:hover {
+                background: url(../img/2b.webp);
+                background-size: cover;
+                background-position-y: 45%;
+            }
+            #rb-terza:hover {
+                background: url(../img/3b.webp);
+                background-size: cover;
+                background-position-y: 100%;
+            }
+            #rf-prima:hover {
+                background: url(../img/4b.webp);
+                background-size: cover;
+            }
+            #rf-seconda:hover {
+                background: url(../img/5b.webp);
+                background-size: cover;
+                background-position-y: 70%;
+            }
+            #rf-terza:hover {
+                background: url(../img/6b.webp);
+                background-size: cover;
+            }
+
+        /* Inizio dettagli prodotto ----------------------- */
         .dettagli {
             width: 100%;
             background-color: white;
