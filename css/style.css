@@ -1,5 +1,80 @@
+/* regole basi -------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}   
+
+/* Inizio background row ---------------------------------- */
+#row {
+    /* height: 400px; */
+    width: 80%;
+    margin: 20px auto;
+}
+    .container {
+        display: inline-block;
+    }
+        .container .foto {
+            width: 300px;
+            height: 400px;
+            background-size: cover;
+            position: relative;
+        }
+            .wishlist {
+                background-color: white;
+                padding: 3px 7px;
+                position: absolute;
+                right: 0;
+                top: 15px;
+            }
+            .foto > div:first-child {
+                width: 100%;
+                position: absolute;
+                bottom: 15px;
+                font-size: 12px;
+            }  
+                .sconto {
+                    float: left;
+                    background-color: red;
+                    color: white;
+                    padding: 3px 5px;
+                }
+                .caratteristica {
+                    float: left;
+                    background-color: rgb(47, 161, 98);
+                    color: white;
+                    margin-left: 5px;
+                    padding: 3px 5px;
+                }
+            #rb-prima {
+                background-image: url(../img/1.webp);
+                background-position-y: 100%;
+            }
+        
+        .dettagli {
+            width: 100%;
+            background-color: white;
+            position: relative;
+        }
+            .marca {
+                font-size: 12px;
+            }
+            .nome {
+                text-transform: uppercase;
+            }
+            .prezzo, .prezzo-originale {
+                font-size: 12px;
+            }
+                .prezzo {
+                    color: red;
+                }
+                .prezzo-originale {
+                    margin-left: 5px;
+                    text-decoration: line-through;
+                }
